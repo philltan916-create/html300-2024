@@ -1,0 +1,15 @@
+@mixin button-style {
+    border: none;
+    border-radius: $border-radius;
+    cursor: pointer;
+    transition: background $transition-speed;
+}
+
+@mixin card-hover {
+    transition: transform $transition-speed, box-shadow $transition-speed;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,.35);
+    }
+}

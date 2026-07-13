@@ -1,0 +1,21 @@
+@import "variables";
+@import "mixins";
+
+header {
+    background: $primary-color;
+    color: $text-light;
+}
+
+.card {
+    @include card-hover;
+}
+
+button {
+    @include button-style;
+    background: $primary-color;
+    color: $text-light;
+
+    &:hover {
+        background: $secondary-color;
+    }
+}
