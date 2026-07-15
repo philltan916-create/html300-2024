@@ -9,7 +9,6 @@ body{
     background:#f4f4f4;
 }
 
-/* Header */
 
 header{
     background:#003366;
@@ -25,7 +24,6 @@ nav a{
     text-decoration:none;
     margin-right:20px;
 
-    /* Transition #1 */
     transition:color .4s;
 }
 
@@ -48,7 +46,6 @@ nav button:hover{
     background:gold;
 }
 
-/* Hero */
 
 .hero{
     background:#0059b3;
@@ -81,7 +78,6 @@ nav button:hover{
     transform:scale(1.1);
 }
 
-/* Products */
 
 .products{
     display:flex;
@@ -99,7 +95,6 @@ nav button:hover{
     padding:20px;
     box-shadow:0 0 15px rgba(0,0,0,.2);
 
-    /* Transition #2 */
     transition:transform .4s, box-shadow .4s;
 }
 
@@ -138,8 +133,6 @@ nav button:hover{
     background:#0066cc;
 }
 
-/* Footer */
-
 footer{
     background:#003366;
     color:white;
@@ -147,7 +140,6 @@ footer{
     padding:25px;
 }
 
-/* Responsive */
 
 @media(max-width:768px){
 
